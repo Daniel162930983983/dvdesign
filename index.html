@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DVdesign - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container nav-container">
+            <div class="logo-container">
+                <!-- Espaço para inserir o logotipo -->
+                <img id="logo" src="logotipo.png" alt="DVdesign Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>DVdesign</h1>
+                <h2>Design que <span class="highlight">transforma</span> ideias em realidade</h2>
+                <p>Soluções criativas para sua marca se destacar no mercado</p>
+                <a href="#portfolio" class="btn">Ver Projetos</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Sobre</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="logotipo.png" alt="Sobre DVdesign">
+                </div>
+                <div class="about-text">
+                    <h3>Quem somos</h3>
+                    <p>A DVdesign é um estúdio de design especializado em criar experiências visuais impactantes. Combinamos criatividade com estratégia para desenvolver soluções que fortalecem a identidade da sua marca.</p>
+                    <h3>Nossa Missão</h3>
+                    <p>Transformar ideias em designs memoráveis que conectam marcas aos seus públicos de forma autêntica e eficaz.</p>
+                    <a href="#contact" class="btn btn-outline">Entre em contato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title">Portfólio</h2>
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="print">Impressos</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item branding">
+                    <img src="Modern Business Marketing Materials Display.png" alt="Projeto Branding">
+                    <div class="portfolio-overlay">
+                        <h3>Redesign de Marca</h3>
+                        <p>Branding</p>
+                        <a href="#" class="view-project">Ver projeto</a>
+                    </div>
+                </div>
+                <div class="portfolio-item web">
+                    <img src="2025-04-28_21-25-17_4750.png" alt="Projeto Web">
+                    <div class="portfolio-overlay">
+                        <h3>Website Corporativo</h3>
+                        <p>Web Design</p>
+                        <a href="#" class="view-project">Ver projeto</a>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <div class="portfolio-item web">
+                    <img src="2025-04-28_21-41-03_8873.png" alt="Projeto UX/UI">
+                    <div class="portfolio-overlay">
+                        <h3>App Mobile</h3>
+                        <p>UX/UI Design</p>
+                        <a href="#" class="view-project">Ver projeto</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="icon-branding"></i>
+                    </div>
+                    <h3>Branding</h3>
+                    <p>Criação e redesign de marcas, identidade visual, guias de estilo e aplicações.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="icon-web"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Design de sites responsivos, landing pages e interfaces digitais intuitivas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="icon-ux"></i>
+                    </div>
+                    <h3>UX/UI Design</h3>
+                    <p>Criação de experiências de usuário memoráveis para aplicativos e plataformas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="icon-print"></i>
+                    </div>
+                    <h3>Design Editorial</h3>
+                    <p>Desenvolvimento de materiais impressos, catálogos, revistas e livros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Vamos conversar</h3>
+                    <p>Estamos prontos para transformar suas ideias em realidade.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="icon-email"></i>
+                            <span>danielvitorputini@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="icon-location"></i>
+                            <span>PR - Brasil</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="icon-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="icon-behance"></i></a>
+                        <a href="#" class="social-icon"><i class="icon-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Assunto">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-full">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logotipo.png" alt="DVdesign Logo">
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Início</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#portfolio">Portfólio</a>
+                    <a href="#services">Serviços</a>
+                    <a href="#contact">Contato</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 DVdesign. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
